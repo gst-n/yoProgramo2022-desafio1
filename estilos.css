@@ -90,8 +90,11 @@ strong {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: 25vh;
+    align-items:stretch;
+    text-align: center;
+    font-weight:lighter;
 }
 
 img{
@@ -124,6 +127,7 @@ img{
 }
 
 .foot__media {
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
